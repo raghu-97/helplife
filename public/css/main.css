@@ -1,0 +1,47 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the login form container */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the tabs container */
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Styling for the tab buttons */
+.tab-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hover effect for the tab buttons */
+.tab-button:hover {
+    background-color: #0056b3;
+}
+
+/* General styling for tab content */
+.tab-content {
+    display: none;  /* Hide all tab content by default */
+}
+
+/* Styling for the active tab content */
+.tab-content.active {
+    display: block;  /* Display the active tab content */
+}
